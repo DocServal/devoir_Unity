@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "IA_Player",
+    "maps": [
+        {
+            "name": "GoToClick",
+            "id": "93a0b9e9-fbbd-4ffc-9dcd-11b37a4d5df6",
+            "actions": [
+                {
+                    "name": "GoTo",
+                    "type": "Button",
+                    "id": "2d32c69c-e3c3-40d4-87a8-84f1f883b53d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "1e3ffc95-fd2d-4f37-b8ee-ed5286509fdd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "16997c9e-93cb-4ba5-8413-a87132c73fff",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GoTo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9634f93e-1155-4275-b688-e00444e1d32f",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
